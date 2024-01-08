@@ -1,0 +1,10 @@
+﻿.vs
+.idea/
+.vscode
+*.csproj.user
+*.pubxml.user
+bin
+obj
+*.DotSettings.user
+.DS_Store
+**/.DS_Store
