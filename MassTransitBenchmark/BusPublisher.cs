@@ -1,7 +1,7 @@
 ﻿using MassTransit;
-using MassTransitDemo.Contracts;
+using MassTransitBenchmark.Contracts;
 
-namespace MassTransitDemo;
+namespace MassTransitBenchmark;
 
 public class BusPublisher : BackgroundService
 {

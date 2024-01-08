@@ -1,8 +1,8 @@
 ﻿using MassTransit;
-using MassTransitDemo.Contracts;
-using MassTransitDemo.Helpers;
+using MassTransitBenchmark.Contracts;
+using MassTransitBenchmark.Helpers;
 
-namespace MassTransitDemo;
+namespace MassTransitBenchmark;
 
 public class BusConsumer : IConsumer<Message>
 {

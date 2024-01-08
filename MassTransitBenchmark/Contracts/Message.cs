@@ -1,4 +1,4 @@
-namespace MassTransitDemo.Contracts;
+namespace MassTransitBenchmark.Contracts;
 
 // public record Message(string Text);
 public class Message

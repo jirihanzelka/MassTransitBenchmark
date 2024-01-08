@@ -1,6 +1,6 @@
 ﻿using MassTransit;
-using MassTransitDemo;
-using MassTransitDemo.Helpers;
+using MassTransitBenchmark;
+using MassTransitBenchmark.Helpers;
 
 var builder = WebApplication.CreateBuilder();
 

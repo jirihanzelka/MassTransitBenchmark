@@ -1,4 +1,4 @@
-﻿namespace MassTransitDemo.Helpers;
+﻿namespace MassTransitBenchmark.Helpers;
 
 public class Statistics
 {
