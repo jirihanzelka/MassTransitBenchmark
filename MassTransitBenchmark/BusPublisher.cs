@@ -19,7 +19,7 @@ public class BusPublisher : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             await Task.Yield();
-            await _bus.Publish(new Message($"{i*1000000000}"));
+            await _bus.Publish(new Message((i * 1000000000).ToString()));
             i++;
         }
     }
